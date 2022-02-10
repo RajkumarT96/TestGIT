@@ -42,6 +42,7 @@ public class Task1 {
 		WebElement getText = driver.findElement(By.name("order_no"));
 		String attribute = getText.getAttribute("value");
 		System.out.println(attribute);
+		driver.close();
 		
 		
 		
